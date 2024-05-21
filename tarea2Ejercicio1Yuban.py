@@ -24,7 +24,6 @@ while True:
         print(f"Descuento aplicado: ${descuento:.2f}")
         print(f"Total a pagar: ${total_a_pagar:.2f}")
         
-        # Salir del bucle después de una operación exitosa
         break
     except ValueError as e:
         print(e)
